@@ -1,11 +1,12 @@
 import { useState } from 'react'
+import Topbar from './components/Topbar'
 
 
 function App() {
 
   return (
-    <div className="bg-black">
-      <h1>OLA</h1>
+    <div>
+      <Topbar/>
     </div>
   )
 }
