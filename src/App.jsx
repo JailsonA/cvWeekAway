@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import Topbar from './components/Topbar'
 
@@ -9,6 +10,7 @@ function App() {
     <div>
       <Topbar/>
       <Navbar/>
+      <Hero/>
     </div>
   )
 }
