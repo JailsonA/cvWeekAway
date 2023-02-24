@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="w-full h-[90vh]">
+    <div id="home" className="w-full h-[90vh]">
       <img
         src="https://cdn.pixabay.com/photo/2017/04/04/14/24/turtle-2201433_960_720.jpg"
         alt="/"
