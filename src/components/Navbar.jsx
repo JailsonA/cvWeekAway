@@ -1,6 +1,7 @@
 import React from 'react'
 import {useState, useEffect} from 'react'
 import {BsChatSquareDots} from 'react-icons/bs'
+import {AiOutlineGoogle} from 'react-icons/ai'
 import {
     FaFacebook,
     FaTwitter,
@@ -27,7 +28,7 @@ const Navbar = () => {
       <div className='flex justify-between'>
         <FaFacebook className='mx-4'/>
         <FaTwitter className='mx-4'/>
-        <FaGooglePlusG className='mx-4'/>
+        <AiOutlineGoogle className='mx-4'/>
         <FaInstagram className='mx-4'/>
       </div>
       {/* Hamburguer Icon */}
