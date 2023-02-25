@@ -7,7 +7,6 @@ const Booking = () => {
         <div className="flex flex-col my-2 py-2">
           <label>Destination</label>
           <select name="" id="" className="lg:w-[300px] md:w-full border rounded-md p-2" >
-            <option disabled>Select One</option>
             <option value="">São Vicente</option>
             <option value="">São Nicolau</option>
             <option value="">Santa Luzia</option>
